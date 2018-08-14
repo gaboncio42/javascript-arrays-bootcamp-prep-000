@@ -9,3 +9,12 @@ function destructivelyAddElementToBeginningOfArray (chocolateBars, newCandy) {
   chocolateBars.unshift(newBar);
   return chocolateBars;
 }
+
+function addElementToEndOfArray(chocolateBars, newBar) {
+  return [...chocolateBars, newBar];
+}
+
+function destructivelyAddElementToEndOfArray(chocolateBars, newBar) {
+  chocolateBars.push(newBar);
+  return chocolateBars;
+}
