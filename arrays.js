@@ -7,5 +7,5 @@ function addElementToBeginningOfArray (array, elemenet) {
 
 function destructivelyAddElementToBeginningOfArray (array, element) {
   var newBar = 'foo';
-  unshift.("newBar");
+  chocolateBars.unshift()
 }
